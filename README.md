@@ -1,6 +1,6 @@
 # Dashboard de Gestão e Análise | Rafael Trindade
 
-Plataforma proprietária de análise e gestão financeira de múltiplos negócios, com indicadores estratégicos. Permite acompanhar faturamento, despesas e operações por empresa, com visualizações interativas para tomada de decisão. Versão com dados fictícios para portfólio. [[Acessar]](https://bi-rafatrindade.streamlit.app/)
+Plataforma proprietária de análise e gestão financeira de múltiplos negócios, com indicadores estratégicos. Permite acompanhar faturamento, despesas e operações por empresa, com visualizações interativas para tomada de decisão. Versão com dados fictícios para portfólio. [[Acessar]](https://bi-rafatrindade.streamlit.app/) 
 
 ## 📊 Funcionalidades
 
