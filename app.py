@@ -766,7 +766,7 @@ with tab_objects[1]:
             )
         )
 
-        combined_fig.update_yaxes(showline=True, linecolor="Grey", linewidth=0.1, gridcolor='lightgrey', dtick=5000, range = [0, 45000])
+        combined_fig.update_yaxes(showline=True, linecolor="Grey", linewidth=0.1, gridcolor='lightgrey', dtick=5000, range=[0, grouped_mensal['Faturado'].max() * 1.3])
         combined_fig.update_xaxes(showline=True, linecolor="Grey", linewidth=0.1, gridcolor='lightgrey')
         combined_fig.update_layout(
             title=title, 
@@ -1009,7 +1009,7 @@ with tab_objects[2]:
             )
         )
 
-        combined_fig.update_yaxes(showline=True, linecolor="Grey", linewidth=0.1, gridcolor='lightgrey', dtick=5000, range = [0,45000])
+        combined_fig.update_yaxes(showline=True, linecolor="Grey", linewidth=0.1, gridcolor='lightgrey', dtick=5000, range=[0, grouped_mensal['Faturado'].max() * 1.3])
         combined_fig.update_xaxes(showline=True, linecolor="Grey", linewidth=0.1, gridcolor='lightgrey')
         combined_fig.update_layout(title=title, margin=dict(l=0, r=0, t=45, b=0), height=366, title_font_color="rgb(98,83,119)", font=dict(size=14, color='#16181c'))
 
@@ -1731,7 +1731,7 @@ with tab_objects[3]:
         font=dict(size=13, color='rgb(249,250,255)')
     )
 
-    grafico_despesa.update_yaxes(showline=True,linecolor="Grey",linewidth=0.5,gridcolor='lightgrey', range = [0,45000], dtick=5000)
+    grafico_despesa.update_yaxes(showline=True,linecolor="Grey",linewidth=0.5,gridcolor='lightgrey',range=[0, grouped_mensal['Faturado'].max() * 1.3], dtick=5000)
     grafico_despesa.update_xaxes(showline=True,linecolor="Grey",linewidth=0.5,gridcolor='lightgrey')
 
     if empresa_selecionada == "Todas":
