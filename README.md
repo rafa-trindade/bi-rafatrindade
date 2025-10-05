@@ -1,5 +1,4 @@
 # Dashboard de Gestão e Análise | Rafael Trindade
-[![Projeto Badge](https://img.shields.io/badge/-Projeto-2B5482?style=flat-square&logo=github&logoColor=fff)](https://github.com/rafa-trindade/bi-rafatrindade)
 [![Live Badge](https://img.shields.io/badge/-Live-2B5482?style=flat-square&logo=streamlit&logoColor=fff)](https://bi-rafatrindade.streamlit.app/)
 
 Plataforma proprietária de análise e gestão financeira de múltiplos negócios, com indicadores estratégicos. Permite acompanhar faturamento, despesas e operações por empresa, com visualizações interativas para tomada de decisão. Versão com dados fictícios para portfólio. 
