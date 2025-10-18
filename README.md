@@ -1,42 +1,7 @@
 # Dashboard de Gestão e Análise | Rafael Trindade
 [![Live Badge](https://img.shields.io/badge/-Live-2B5482?style=flat-square&logo=streamlit&logoColor=fff)](https://bi-rafatrindade.streamlit.app/)
 
-Plataforma proprietária de análise e gestão financeira de múltiplos negócios, com indicadores estratégicos. Permite acompanhar faturamento, despesas e operações por empresa, com visualizações interativas para tomada de decisão. Versão com dados fictícios para portfólio. 
-
-
-## 📊 Funcionalidades
-
-### Análise Financeira:
-- **Faturamento**: Análise de tendências e comparativos mensais
-- **Despesas Mensais**: Controle e acompanhamento de despesas
-- **Resultados e Indicadores**: Métricas de desempenho e KPIs
-
-### Visualizações:
-- Gráficos de barras interativos
-- Box plots para análise estatística
-- Gráficos de linha para tendências
-
-## 🚀 Tecnologias Utilizadas
-
-- **Python 3.x**
-- **Streamlit**: Framework para criação de aplicações web
-- **Pandas**: Manipulação e análise de dados
-- **Plotly**: Visualizações interativas
-- **NumPy**: Computação numérica
-
-## 📊 Formato dos Dados
-
-### Arquivos CSV
-- **faturamento.csv**: Registros de vendas e receitas
-- **despesas.csv**: Registros de gastos e custos
-- **controle_capital.csv**: Controle de fluxo de caixa
-
-### Estrutura dos Dados
-- Datas no formato DD/MM/YYYY
-- Valores monetários em BRL (R$)
-- Separador CSV: ponto e vírgula (;)
-- Decimal: vírgula (,)
-- Milhares: ponto (.)
+Plataforma proprietária de análise e gestão financeira de múltiplos negócios com indicadores estratégicos. Permite acompanhar faturamento, despesas e operações por empresa, com visualizações interativas para tomada de decisão. Versão com dados fictícios gerados por [`datafaker-rafatrindade`](https://github.com/rafa-trindade/datafaker-rafatrindade) para portfólio público.
 
 ## 📈 Funcionalidades Principais
 
@@ -59,12 +24,29 @@ Plataforma proprietária de análise e gestão financeira de múltiplos negócio
    - DRE simplificado
    - Margens e resultados
    - Análises comparativas
+   - Métricas de desempenho e KPIs
 
+## 📊 Origem dos Dados:
+
+- **faturamento.csv**: Registros de vendas e receitas
+- **despesas.csv**: Registros de gastos e custos
+- **controle_capital.csv**: Controle de fluxo de caixa
+
+Todos os dados e documentos são obtidos automaticamente a partir do drive corporativo, utilizando a API do Google Drive via secrets para leitura de arquivos no formato CSV e acesso seguro aos documentos armazenados.
 
 ## 📸 Capturas de Tela
 
-#### - Painel Principal (Cliente)
-![Dashboard Cliente](docs/.png)
+#### - Painel Inicial
+![Painel Inicial](docs/bi-rafatrindade-dashboard.png)
 
-#### - Painel Principal (Interno)
-![Painel Principal](docs/.png)
+#### - Painel Faturamento
+![Painel Faturamento](docs/bi-rafatrindade-faturamento.png)
+
+#### - Painel Despesas
+![Painel Despesas](docs/bi-rafatrindade-despesa.png)
+
+#### - Painel DRE e Indicadores
+![Painel DRE e Indicadores](docs/bi-rafatrindade-dre-indicadores.png)
+
+#### - Painel NFE
+![Painel NFE](docs/bi-rafatrindade-nfe.png)
