@@ -1,7 +1,7 @@
 # Dashboard de Gestão e Análise | Rafael Trindade
 [![Live Badge](https://img.shields.io/badge/-Live-2B5482?style=flat-square&logo=streamlit&logoColor=fff)](https://bi-rafatrindade.streamlit.app/)
 
-Plataforma proprietária de análise e gestão financeira de múltiplos negócios com indicadores estratégicos. Permite acompanhar faturamento, despesas e operações por empresa, com visualizações interativas para tomada de decisão. Versão com dados fictícios gerados por [`datafaker-rafatrindade`](https://github.com/rafa-trindade/datafaker-rafatrindade) para portfólio público.
+Plataforma proprietária de análise e gestão financeira de múltiplos negócios com indicadores estratégicos. Permite acompanhar faturamento, despesas e operações por empresa, com visualizações interativas para tomada de decisão. Versão com dados fictícios gerados por [`datafaker-rafatrindade`](https://github.com/rafa-trindade/datafaker-rafatrindade) para portfólio.
 
 ## 📈 Funcionalidades Principais
 
