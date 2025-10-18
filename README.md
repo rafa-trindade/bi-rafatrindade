@@ -34,6 +34,15 @@ Plataforma proprietária de análise e gestão financeira de múltiplos negócio
 
 Todos os dados e documentos são obtidos automaticamente a partir do drive corporativo, utilizando a API do Google Drive via secrets para leitura de arquivos no formato CSV e acesso seguro aos documentos armazenados.
 
+## ⚙️ Tecnologias e Bibliotecas
+
+O projeto utiliza um conjunto de ferramentas para automação, requisição, tratamento e análise de dados:
+
+- [**pandas**](https://pypi.org/project/pandas/) → manipulação e estruturação de dados tabulares  
+- [**plotly**](https://pypi.org/project/plotly/) → visualizações interativas  
+- [**streamlit**](https://pypi.org/project/streamlit/) → criação de dashboards web  
+- [**Google Drive API**](https://developers.google.com/drive) → acesso, leitura e gerenciamento de documentos e planilhas armazenados no Google Drive  
+
 ## 📸 Capturas de Tela
 
 #### - Painel Inicial
