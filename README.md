@@ -46,16 +46,16 @@ O projeto utiliza um conjunto de ferramentas para automação, requisição, tra
 ## 📸 Capturas de Tela
 
 #### - Painel Inicial
-![Painel Inicial](docs/bi-rafatrindade-dashboard.png)
+![Painel Inicial](docs/bi-rafatrindade-dashboard_v2.png)
 
 #### - Painel Faturamento
-![Painel Faturamento](docs/bi-rafatrindade-faturamento.png)
+![Painel Faturamento](docs/bi-rafatrindade-faturamento_v2.png)
 
 #### - Painel Despesas
-![Painel Despesas](docs/bi-rafatrindade-despesa.png)
+![Painel Despesas](docs/bi-rafatrindade-despesa_v2.png)
 
 #### - Painel DRE e Indicadores
-![Painel DRE e Indicadores](docs/bi-rafatrindade-dre-indicadores.png)
+![Painel DRE e Indicadores](docs/bi-rafatrindade-dre-indicadores_v2.png)
 
 #### - Painel NFE
-![Painel NFE](docs/bi-rafatrindade-nfe.png)
+![Painel NFE](docs/bi-rafatrindade-nfe_v2.png)
